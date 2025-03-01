@@ -1,0 +1,28 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  margin-left: 38%;
+  margin-top: 150px;
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -2px 2px 7px gray;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+#password {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}

@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(160, 242, 248);
+  font-family: "Times New Roman", Times, serif;
+}
+.coursedets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.creds {
+  text-align: right;
+  margin-right: 20px;
+  background-color: azure;
+}
+
+b {
+  background-color: aliceblue;
+  text-decoration: underline overline;
+}
+.head {
+  text-decoration: underline;
+  color: darkblue;
+}
+.syllabus {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: white;
+  background-color: rgb(237, 0, 0);
+  border: 2px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.course {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.knowmore {
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
+
+.linksyl {
+  text-align: center;
+  margin-left: 25px;
+}
+a:link {
+  background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.click {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
